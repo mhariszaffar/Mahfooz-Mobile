@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/mahfooz-logo.png">
+<title>Recover Emergency PIN — Mahfooz Mobile</title>
+<meta name="description" content="Recover your Emergency PIN using your registered security questions.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<svg style="position:absolute;width:0;height:0" aria-hidden="true">
+<defs>
+<symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/></symbol>
+<symbol id="ic-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></symbol>
+<symbol id="ic-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+<symbol id="ic-alert" viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2z"/><line x1="12" y1="9" x2="12" y2="14"/><circle cx="12" cy="17.3" r="0.6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="ic-doc" viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6z"/><polyline points="15 2 15 7 20 7"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></symbol>
+<symbol id="ic-exchange" viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></symbol>
+<symbol id="ic-dash" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></symbol>
+<symbol id="ic-devices" viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="9" rx="1"/><rect x="18" y="8" width="4" height="12" rx="1"/><line x1="3" y1="17" x2="12" y2="17"/></symbol>
+<symbol id="ic-history" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></symbol>
+<symbol id="ic-pin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><rect x="9" y="9" width="6" height="6" rx="1" fill="currentColor" stroke="none"/></symbol>
+<symbol id="ic-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9c.12.31.27.62.33.93.1.6.17 1.07.17 1.07"/></symbol>
+<symbol id="ic-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></symbol>
+<symbol id="ic-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+<symbol id="ic-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></symbol>
+<symbol id="ic-flag" viewBox="0 0 24 24"><path d="M4 22V3"/><path d="M4 4h14l-2.5 4L18 12H4"/></symbol>
+<symbol id="ic-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+<symbol id="ic-eye" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
+</defs>
+</svg>
+
+<div class="topnav">
+  <a class="brand" href="index.html"><img class="brand-logo" src="img/mahfooz-mark.png" alt="Mahfooz Mobile logo">Mahfooz Mobile</a>
+  <nav class="navlinks"><a href="how-it-works.html">How it works</a><a href="check-imei.html">Check an IMEI</a><a href="help.html">Help</a></nav>
+  <div class="navcta"><a class="btn btn-outline" href="register.html">Register</a><a class="btn btn-ghost" href="login.html">Log In</a></div>
+</div>
+<div class="content-narrow">
+  <h2>Recover your Emergency PIN</h2>
+  <p>Answer at least 3 of the 5 personal questions you set at registration to set a new Emergency PIN. This is fully automated — no live agent is involved.</p>
+
+  <form id="recover-identify-form">
+  <div class="card" id="recover-step-identify">
+    <div id="recover-id-error" class="notice" style="background:var(--danger-soft); color:var(--danger-text); display:none; margin-bottom:14px;"></div>
+    <div class="field"><label>CNIC or Phone Number</label><input name="identifier" required maxlength="15" placeholder="42101-XXXXXXX-X"></div>
+    <div class="notice">Enter the CNIC or phone number you registered with. We'll then show the 5 questions you set, and you'll need to answer at least 3 correctly.</div>
+    <button type="submit" class="btn btn-accent btn-block" style="margin-top:14px;">Continue</button>
+  </div>
+  </form>
+
+  <form id="recover-answers-form" hidden>
+  <div class="card" id="recover-step-answers">
+    <div id="recover-error" class="notice" style="background:var(--danger-soft); color:var(--danger-text); display:none; margin-bottom:14px;"></div>
+    <div class="notice notice-accent" style="margin-bottom:14px;" id="recover-identified">Answer the questions you set at registration.</div>
+    <div id="recover-questions"></div>
+    <div class="notice">Each question you set is shown above its own answer box. Answers are matched against hashed values stored at registration. You'll be notified by email of this attempt regardless of outcome. A successful recovery lets you set a brand-new Emergency PIN — your old PIN can never be revealed, only replaced. (Demo: Ali's answers are "iPhone" / "March 2026" / "Karachi" / "blue" / "Askari 11".)</div>
+    <button type="submit" class="btn btn-accent btn-block" style="margin-top:14px;">Verify Answers</button>
+    <div style="text-align:center; margin-top:14px; font-size:12px;"><a href="#" id="recover-use-otp" style="color:var(--accent-text); font-weight:600;">Can't remember your answers? Verify via email / registered number instead →</a></div>
+  </div>
+  </form>
+
+  <!-- Alternate recovery: email / registered-number OTP -->
+  <form id="recover-otp-form" hidden>
+  <div class="card">
+    <div id="recover-otp-error" class="notice" style="background:var(--danger-soft); color:var(--danger-text); display:none; margin-bottom:14px;"></div>
+    <h4 style="margin-bottom:6px;">Verify via email / registered number</h4>
+    <p style="font-size:12.5px;">We'll send a one-time code to the email or alternate number on your account, then you can set a new PIN.</p>
+    <div class="field">
+      <label>Confirmation code</label>
+      <div style="display:flex; gap:9px; align-items:center;">
+        <input name="otp" maxlength="6" inputmode="numeric" placeholder="6-digit code" style="flex:1;">
+        <button type="button" class="btn btn-ghost btn-sm" id="recover-send-otp">Send code</button>
+      </div>
+      <div id="recover-otp-note" class="notice notice-accent" style="display:none; margin-top:8px; font-size:11.5px;"></div>
+    </div>
+    <div class="field"><label>New Emergency PIN</label><input type="password" name="newPin" required maxlength="6" placeholder="6 digits, no common patterns"></div>
+    <button type="submit" class="btn btn-accent btn-block">Verify &amp; Set New PIN</button>
+    <div style="text-align:center; margin-top:14px; font-size:12px;"><a href="#" id="recover-use-questions" style="color:var(--accent-text); font-weight:600;">← Back to security questions</a></div>
+  </div>
+  </form>
+
+  <form id="recover-newpin-form" hidden>
+  <div class="card" id="recover-step-newpin">
+    <div id="recover-step2-error" class="notice" style="background:var(--danger-soft); color:var(--danger-text); display:none; margin-bottom:14px;"></div>
+    <div class="notice" style="background:var(--accent-soft); color:var(--accent-text); margin-bottom:14px;">Identity verified. Set a new Emergency PIN below.</div>
+    <div class="field"><label>New Emergency PIN</label><input type="password" name="newPin" required maxlength="6" placeholder="6 digits, no common patterns"></div>
+    <button type="submit" class="btn btn-accent btn-block">Set New Emergency PIN</button>
+  </div>
+  </form>
+
+  <p style="font-size:12px; margin-top:16px;">Prefer your physical recovery code? <a href="emergency.html" style="color:var(--accent-text); font-weight:600;">Use it on the Emergency Report page →</a></p>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-brand"><img class="brand-logo" src="img/mahfooz-mark.png" alt="Mahfooz Mobile logo">Mahfooz Mobile</div>
+      <p>A self-contained registration and blocking authority that mirrors PTA's DIRBS/LSDS model, built for CY321 Secure Software Design.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Product</h5>
+      <ul>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a href="check-imei.html">Check an IMEI</a></li>
+        <li><a href="register.html">Register a device</a></li>
+        <li><a href="emergency.html">Report a stolen phone</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Account</h5>
+      <ul>
+        <li><a href="login.html">Log in</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="forgot-pin.html">Recover Emergency PIN</a></li>
+        <li><a href="forgot-password.html">Forgot password</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Support</h5>
+      <ul>
+        <li><a href="help.html">Help &amp; FAQ</a></li>
+        <li><a href="dispute.html">Dispute a block</a></li>
+        <li><a href="staff-dashboard.html">Staff &amp; auditor portal</a></li>
+        <li><a href="index.html#faq">Common questions</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Mahfooz Mobile — CY321 Secure Software Design</span>
+    <span>Not affiliated with PTA or NADRA — a university security design project</span>
+  </div>
+</footer>
+<script src="js/store.js" defer></script>
+<script src="js/app.js" defer></script>
+<script src="js/main.js?v=2" defer></script>
+</body>
+</html>
