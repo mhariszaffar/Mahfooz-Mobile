@@ -1,0 +1,15 @@
+{
+  "name": "mahfooz-mobile-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for Mahfooz Mobile — serves the website and talks to PostgreSQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "nodemailer": "^6.9.16",
+    "pg": "8.13.1"
+  }
+}
