@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# 📱 Mahfooz Mobile
+# Mahfooz Mobile
 
 ### A Secure Citizen-Facing System for Reporting and Blocking Stolen Mobile Phones
 
