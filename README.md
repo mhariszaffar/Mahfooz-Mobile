@@ -4,7 +4,7 @@
 
 ### A Secure Citizen-Facing System for Reporting and Blocking Stolen Mobile Phones
 
-**CY-321 — Secure Software Design**
+**CY-321 — Secure Software Design** |
 **Instructor:** Dr. Zubair Ahmad | 
 **Instructor Git-Hub:**[@ZAhmaad](https://github.com/ZAhmaad) |  
 **Institution:** Faculty of Computer Science & Engineering, Ghulam Ishaq Khan Institute (GIKI)
