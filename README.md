@@ -4,16 +4,16 @@
 
 ### A Secure Citizen-Facing System for Reporting and Blocking Stolen Mobile Phones
 
-> **CY-321 — Secure Software Design**
-> **Instructor:** Dr. Zubair Ahmad
-> **Instructor Git-Hub:**[@ZAhmaad](https://github.com/ZAhmaad) | 
-> **Institution:** Faculty of Computer Science & Engineering, Ghulam Ishaq Khan Institute (GIKI)
+**CY-321 — Secure Software Design**
+**Instructor:** Dr. Zubair Ahmad
+**Instructor Git-Hub:**[@ZAhmaad](https://github.com/ZAhmaad) | 
+**Institution:** Faculty of Computer Science & Engineering, Ghulam Ishaq Khan Institute (GIKI)
 
 
 <div align="center">
 <sub>Developed as an academic project. Not affiliated with PTA or NADRA. Uses mocked government data for demonstration purposes only.</sub>
 </div>
-</div>
+
 ---
 
 ## 👥 Group Members
@@ -59,6 +59,7 @@
   </tr>
 </table>
 
+</div>
 ---
 
 
