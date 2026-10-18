@@ -1,4 +1,4 @@
-
+<div align="center">
 
 # 📱 Mahfooz Mobile
 
@@ -13,7 +13,7 @@
 <div align="center">
 <sub>Developed as an academic project. Not affiliated with PTA or NADRA. Uses mocked government data for demonstration purposes only.</sub>
 </div>
-
+</div>
 ---
 
 ## 👥 Group Members
