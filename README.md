@@ -4,6 +4,68 @@
 
 ### A Secure Citizen-Facing System for Reporting and Blocking Stolen Mobile Phones
 
+> **CY-321 — Secure Software Design**
+> **Instructor:** Dr. Zubair Ahmad
+> **Instructor Git-Hub:**[@ZAhmaad](https://github.com/ZAhmaad) | 
+> **Institution:** Faculty of Computer Science & Engineering, Ghulam Ishaq Khan Institute (GIKI)
+
+
+<div align="center">
+<sub>Developed as an academic project. Not affiliated with PTA or NADRA. Uses mocked government data for demonstration purposes only.</sub>
+</div>
+
+---
+
+## 👥 Group Members
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mhariszaffar">
+        <img src="https://github.com/mhariszaffar.png" width="100px;" alt="Haris"/>
+        <br />
+        <b>Muhammad Haris Zafar</b>
+      </a>
+      <br />
+      <a href="https://github.com/mhariszaffar">github.com/mhariszaffar</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/abdullahk150">
+        <img src="https://github.com/abdullahk150.png" width="100px;" alt="Abdullah"/>
+        <br />
+        <b>Muhammad Abdullah Kaleem</b>
+      </a>
+      <br />
+      <a href="https://github.com/abdullahk150">github.com/abdullahk150</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/naqi005">
+        <img src="https://github.com/naqi005.png" width="100px;" alt="Naqi"/>
+        <br />
+        <b>Muhammad Naqi Afaq</b>
+      </a>
+      <br />
+      <a href="https://github.com/naqi005">github.com/naqi005</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ibrahim-gulzar-11">
+        <img src="https://github.com/ibrahim-gulzar-11.png" width="100px;" alt="Ibrahim"/>
+        <br />
+        <b>Muhammad Ibrahim Gulzar</b>
+      </a>
+      <br />
+      <a href="https://github.com/ibrahim-gulzar-11">github.com/ibrahim-gulzar</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+
+
+
+
+
 *Built for **CY321 — Secure Software Design** · Ghulam Ishaq Khan Institute (GIKI)*
 
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS%20%7C%20JS-e34c26)
@@ -322,22 +384,3 @@ These define the trust boundary of an academic prototype built on mocked governm
 affect the correctness of the security mechanisms described above.
 
 ---
-
-## 👥 Team
-
-| Name | Registration No. |
-|------|------------------|
-| Muhammad Abdullah Kaleem | 2024326 |
-| Muhammad Haris Zafar | 2024396 |
-| Muhammad Ibrahim Gulzar | 2024409 |
-| Muhammad Naqi Afaq | 2024433 |
-
-**Course:** CY321 — Secure Software Design  
-**Instructor:** Dr. Zubair Ahmad  
-**Institution:** Faculty of Computer Science & Engineering, Ghulam Ishaq Khan Institute (GIKI)
-
----
-
-<div align="center">
-<sub>Developed as an academic project. Not affiliated with PTA or NADRA. Uses mocked government data for demonstration purposes only.</sub>
-</div>
